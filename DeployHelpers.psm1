@@ -113,7 +113,7 @@ function Start-DetachedProcess {
     )
     # 設定環境變數（只影響子程序）
     foreach ($key in $Environment.Keys) {
-        $env:$key = $Environment[$key]
+        Set-Item -Path "Env:$key" -Value $Environment[$key]
     }
     if ($WorkingDirectory -and -not (Test-Path $WorkingDirectory)) {
         throw "Working directory does not exist: $WorkingDirectory"
