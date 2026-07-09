@@ -10,6 +10,15 @@
       "repo_url": "https://github.com/chenweihanfool/tasktracker",
       "health_url": "https://cwh2023.asuscomm.com/",
       "notes": "Vikunja Docker 部署 + gantt-today-line Node.js proxy"
+    },
+    {
+      "name": "pf-cwh",
+      "aliases": ["pfcwh", "人生進度管理系統"],
+      "display_name": "人生進度管理系統",
+      "update_script": "F:\\pf-cwh-src\\update.ps1",
+      "repo_url": "https://github.com/chenweihanfool/pf-cwh",
+      "health_url": "https://cwh2023.asuscomm.com/pf",
+      "notes": "pf-cwh Docker 部署（共用 Postgres）"
     }
   ]
 }
