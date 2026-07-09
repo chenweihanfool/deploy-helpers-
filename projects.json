@@ -1,0 +1,15 @@
+{
+  "_schema_version": 1,
+  "_comment": "專案部署腳本清單。name 是口語關鍵字，用於模糊比對「更新 XXX」指令。",
+  "projects": [
+    {
+      "name": "tasktracker",
+      "aliases": ["task-tracker", "task tracker", "vikunja", "Vikunja"],
+      "display_name": "Vikunja 任務追蹤系統",
+      "update_script": "F:\\vikunja-src\\update.ps1",
+      "repo_url": "https://github.com/chenweihanfool/tasktracker",
+      "health_url": "https://cwh2023.asuscomm.com/",
+      "notes": "Vikunja Docker 部署 + gantt-today-line Node.js proxy"
+    }
+  ]
+}
