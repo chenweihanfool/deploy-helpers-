@@ -4,21 +4,56 @@
   "projects": [
     {
       "name": "tasktracker",
-      "aliases": ["task-tracker", "task tracker", "vikunja", "Vikunja"],
+      "aliases": [
+        "task-tracker",
+        "task tracker",
+        "vikunja",
+        "Vikunja"
+      ],
       "display_name": "Vikunja 任務追蹤系統",
-      "update_script": "F:\\vikunja-src\\update.ps1",
+      "update_script": "F:\\WEBAPP\\SRC\\vikunja\\update.ps1",
       "repo_url": "https://github.com/chenweihanfool/tasktracker",
       "health_url": "https://cwh2023.asuscomm.com/",
       "notes": "Vikunja Docker 部署 + gantt-today-line Node.js proxy"
     },
     {
       "name": "pf-cwh",
-      "aliases": ["pfcwh", "人生進度管理系統"],
+      "aliases": [
+        "pfcwh",
+        "人生進度管理系統"
+      ],
       "display_name": "人生進度管理系統",
-      "update_script": "F:\\pf-cwh-src\\update.ps1",
+      "update_script": "F:\\WEBAPP\\SRC\\pf-cwh\\update.ps1",
       "repo_url": "https://github.com/chenweihanfool/pf-cwh",
       "health_url": "https://cwh2023.asuscomm.com/pf",
       "notes": "pf-cwh Docker 部署（共用 Postgres）"
+    },
+    {
+      "name": "fitnessforge",
+      "aliases": [
+        "fitness-forge",
+        "健身",
+        "運動日誌"
+      ],
+      "display_name": "健身數據管理系統",
+      "update_script": "F:\\WEBAPP\\SRC\\FitnessForge\\update.ps1",
+      "repo_url": "https://github.com/chenweihanfool/FitnessForge",
+      "health_url": "https://cwh2023.asuscomm.com/fitness",
+      "notes": "FitnessForge Docker 部署（Google OAuth，共用 Postgres）"
+    },
+    {
+      "name": "aiportal",
+      "aliases": [
+        "入口網站",
+        "入口",
+        "portal",
+        "gis-portal"
+      ],
+      "display_name": "Aiportal 入口網站",
+      "update_script": "F:\\WEBAPP\\SRC\\Aiportal\\update.ps1",
+      "repo_url": "https://github.com/chenweihanfool/Aiportal",
+      "health_url": "https://cwh2023.asuscomm.com/aiportal/",
+      "notes": "Aiportal Docker 部署（Express + Three.js SPA，共用 Postgres）"
     }
   ]
 }
