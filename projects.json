@@ -52,8 +52,21 @@
       "display_name": "Aiportal 入口網站",
       "update_script": "F:\\WEBAPP\\SRC\\Aiportal\\update.ps1",
       "repo_url": "https://github.com/chenweihanfool/Aiportal",
-      "health_url": "https://cwh2023.asuscomm.com/aiportal/",
+      "health_url": "https://cwh2023.synology.me/aiportal/",
       "notes": "Aiportal Docker 部署（Express + Three.js SPA，共用 Postgres）"
+    },
+    {
+      "name": "geospatial",
+      "aliases": [
+        "geo",
+        "圖根點",
+        "地籍"
+      ],
+      "display_name": "Geospatial 圖根點座標/地籍資料系統",
+      "update_script": "F:\\WEBAPP\\SRC\\Geospatial\\update.ps1",
+      "repo_url": "https://github.com/chenweihanfool/Geospatial",
+      "health_url": "https://cwh2023.asuscomm.com/geospatial",
+      "notes": "Geospatial Docker 部署（Express + Vite SPA，外部 Azure PostgreSQL）"
     }
   ]
 }
